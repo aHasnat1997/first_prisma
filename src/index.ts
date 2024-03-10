@@ -13,6 +13,4 @@ const prisma = new PrismaClient();
   });
   const result = await prisma.user.findMany();
   console.log(result);
-})()
-
-// console.log('Hello World...');
+})();
